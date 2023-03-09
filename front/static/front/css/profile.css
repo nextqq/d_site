@@ -1,0 +1,44 @@
+.card {
+    /*box-shadow: yellow 3px 6px 8px 1px;*/
+    margin: auto;
+    background: var(--tg-theme-secondary-bg-color);
+    border-radius: 15px;
+    border: none;
+
+}
+.avatar-bg {
+    box-shadow: var(--tg-theme-button-color) 0 3px 3px 0;
+    position: absolute;
+    background: var(--tg-theme-button-color);
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+}
+.image {
+    border-radius: 50%;
+    box-shadow: 0 4px 7px 0 var(--tg-theme-secondary-bg-color);
+    font-size: 20vh;
+    background: var(--tg-theme-secondary-bg-color);
+    color: var(--tg-theme-text-color);
+}
+
+.social-link {
+    margin: 0 4px 0 4px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.edit-profile-button {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    background: var(--tg-theme-secondary-bg-color);
+    color: var(--tg-theme-text-color);
+    border-radius: 15px;
+
+}
+
+.edit-profile-button:hover {
+    color: var(--tg-theme-hint-color);
+}
+
